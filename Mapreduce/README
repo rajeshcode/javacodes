@@ -1,3 +1,6 @@
 
 
  hadoop jar Mapreduce-2.0-SNAPSHOT.jar mapreduce.knox.PageViewCounter  /2017/10/31/14/*gateway.log* /user/rajesh/knox-data-Flume/OUTPUT
+ 
+ 
+  /apache/hadoop/bin/hadoop jar /home/hssetup/Mapreduce-2.0-SNAPSHOT.jar validate.WordCount  /tmp/test-test /tmp/rajeshoutput4
